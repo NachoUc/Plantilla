@@ -1,0 +1,46 @@
+<!-- Nacho Uceda González 27/10/2024 -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ejercicio-11">
+        <meta name="keywords" content="Ejercicio-11">
+        <meta name="author" content="Nacho Uceda">
+        <meta name="robots" content="index, follow">
+        <title>Club Valencia</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="./index.html"><img id="Escudo" src="./img/Valencia CF.png" alt="Escudo"></a>
+        <h1>VALENCIA CF</h1>
+        <a href="./index.html"><button class="neu-button" type="submit">Inicio</button></a>
+         <a href="./plantillas.html"><button class="neu-button" type="submit">Plantilla</button></a>
+          <a href="./taquilla.html"><button class="neu-button" type="submit">Taquilla</button></a>
+           <a href="./contacto.html"><button class="neu-button" type="submit">Contacto</button></a>
+       <hr>
+       <div class="formulario">
+        <h2>Solicitud de Entradas</h2>
+        <form id="entradas-form">
+          <label for="nombre">Nombre completo:</label>
+           <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+             <input type="email" id="email" name="email" required>
+              <label for="telefono">Teléfono:</label>
+               <input type="text" id="telefono" name="telefono" required>
+              <label for="cantidad">Cantidad de entradas:</label>
+             <input type="number" id="cantidad" name="cantidad" min="1" required>
+           <label for="zona">Zona del estadio:</label>
+          <select id="zona" name="zona" required>
+            <option value="">Seleccione una opción</option>
+             <option value="zonapreferente">Zona Preferente</option>
+              <option value="zonasur">Zona Sur</option>
+             <option value="zonanorte">Zona Norte</option>
+          </select>
+    
+          <button type="submit" class="boton">Solicitar Entradas</button>
+        </form>
+      </div>
+      <hr>
+          <img src="./img/pie-pagina.jpg" id="pie">
+</body>
+</html>

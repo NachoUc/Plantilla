@@ -1,0 +1,77 @@
+#funda{
+    margin-left: 79px;
+}
+#mesta{
+    margin-left: 90px;
+}
+h3{
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+img{
+    width: 10%;
+    height: 10%;
+}
+#Escudo{
+    float: left;
+    width: 5%;
+    height: 5%;
+}
+p{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(80, 79, 79);
+    text-align: justify;
+}
+.neu-button {
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    color: #4d4d4d;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 40px;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid rgb(206, 206, 206);
+  }
+  
+  .neu-button:hover {
+    box-shadow: inset 2px 2px 5px #d68111, inset -2px -2px 5px #ffffff, 2px 2px 5px #d68111, -2px -2px 5px #ffffff;
+  }
+  
+  .neu-button:focus {
+    outline: none;
+    box-shadow: inset 2px 2px 5px #d68111, inset -2px -2px 5px #ffffff, 2px 2px 5px #d68111, -2px -2px 5px #ffffff;
+  }
+  #pie{
+    width: 100%;
+    height: 100%;
+  }
+  .formulario {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 174, 0, 0.253);
+    margin-bottom: 20px;
+  }
+  .boton{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffae00;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
